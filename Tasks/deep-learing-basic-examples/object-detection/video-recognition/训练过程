@@ -1,0 +1,1656 @@
+D:\DEVTOOLS\Anaconda3\envs\torch\python.exe E:/Projects/selfProject/ml-trainee/Tasks/deep-learing-basic-examples/object-detection/video-recognition/train.py
+Device being used: cuda:0
+Training C3D from scratch...
+Total params: 78.41M
+Training model on ucf101 dataset...
+Number of train videos: 8460
+Number of val videos: 2159
+Number of test videos: 2701
+D:\DEVTOOLS\Anaconda3\envs\torch\lib\site-packages\torch\optim\lr_scheduler.py:123: UserWarning: Detected call of `lr_scheduler.step()` before `optimizer.step()`. In PyTorch 1.1.0 and later, you should call them in the opposite order: `optimizer.step()` before `lr_scheduler.step()`.  Failure to do this will result in PyTorch skipping the first value of the learning rate schedule. See more details at https://pytorch.org/docs/stable/optim.html#how-to-adjust-learning-rate
+  "https://pytorch.org/docs/stable/optim.html#how-to-adjust-learning-rate", UserWarning)
+  0%|          | 0/423 [00:00<?, ?it/s]Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 423/423 [08:56<00:00,  1.27s/it]
+  0%|          | 0/108 [00:00<?, ?it/s][train] Epoch: 1/100 Loss: 3.4285891732425555 Acc: 0.26217494089834514
+Execution time: 536.2905615
+
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 108/108 [01:46<00:00,  1.02it/s]
+  0%|          | 0/423 [00:00<?, ?it/s][val] Epoch: 1/100 Loss: 1.4964733179546497 Acc: 0.5896248263084761
+Execution time: 106.1165906
+
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 423/423 [09:04<00:00,  1.29s/it]
+  0%|          | 0/108 [00:00<?, ?it/s][train] Epoch: 2/100 Loss: 1.345606234620367 Acc: 0.6460992907801418
+Execution time: 544.4106274
+
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 108/108 [00:56<00:00,  1.92it/s]
+[val] Epoch: 2/100 Loss: 0.8188166183994539 Acc: 0.7836961556276054
+Execution time: 56.23011680000013
+
+  0%|          | 0/423 [00:00<?, ?it/s]Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 423/423 [09:04<00:00,  1.29s/it]
+  0%|          | 0/108 [00:00<?, ?it/s][train] Epoch: 3/100 Loss: 0.8145759171821688 Acc: 0.7819148936170213
+Execution time: 544.1047862999999
+
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 108/108 [00:56<00:00,  1.93it/s]
+  0%|          | 0/423 [00:00<?, ?it/s][val] Epoch: 3/100 Loss: 0.7131412052491187 Acc: 0.8100972672533581
+Execution time: 56.10236000000009
+
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 423/423 [09:04<00:00,  1.29s/it]
+  0%|          | 0/108 [00:00<?, ?it/s][train] Epoch: 4/100 Loss: 0.5187330245002928 Acc: 0.8578014184397162
+Execution time: 544.1354354
+
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 108/108 [00:55<00:00,  1.93it/s]
+  0%|          | 0/423 [00:00<?, ?it/s][val] Epoch: 4/100 Loss: 0.5384116647371451 Acc: 0.857341361741547
+Execution time: 55.96727789999977
+
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 423/423 [09:04<00:00,  1.29s/it]
+  0%|          | 0/108 [00:00<?, ?it/s][train] Epoch: 5/100 Loss: 0.4045817151987137 Acc: 0.8856973995271867
+Execution time: 544.0715968
+
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 108/108 [00:56<00:00,  1.92it/s]
+[val] Epoch: 5/100 Loss: 0.5098317308440259 Acc: 0.8568781843446039
+Execution time: 56.17076749999978
+
+  0%|          | 0/423 [00:00<?, ?it/s]Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 423/423 [09:04<00:00,  1.29s/it]
+  0%|          | 0/108 [00:00<?, ?it/s][train] Epoch: 6/100 Loss: 0.31760960588799725 Acc: 0.9117021276595745
+Execution time: 544.2620024000003
+
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 108/108 [00:56<00:00,  1.92it/s]
+[val] Epoch: 6/100 Loss: 0.4939168562591794 Acc: 0.8800370541917555
+Execution time: 56.28957290000017
+
+  0%|          | 0/423 [00:00<?, ?it/s]Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 423/423 [09:04<00:00,  1.29s/it]
+[train] Epoch: 7/100 Loss: 0.2672952687167992 Acc: 0.9260047281323877
+Execution time: 544.0637418999995
+
+  0%|          | 0/108 [00:00<?, ?it/s]Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 108/108 [00:58<00:00,  1.86it/s]
+[val] Epoch: 7/100 Loss: 0.42756195486600695 Acc: 0.889300602130616
+Execution time: 58.16794860000027
+
+  0%|          | 0/423 [00:00<?, ?it/s]Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 423/423 [09:04<00:00,  1.29s/it]
+  0%|          | 0/108 [00:00<?, ?it/s][train] Epoch: 8/100 Loss: 0.20479509190793302 Acc: 0.9440898345153664
+Execution time: 544.0217092000003
+
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 108/108 [00:56<00:00,  1.92it/s]
+[val] Epoch: 8/100 Loss: 0.4289730984136259 Acc: 0.8994905048633627
+Execution time: 56.16465330000028
+
+  0%|          | 0/423 [00:00<?, ?it/s]Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 423/423 [09:03<00:00,  1.29s/it]
+  0%|          | 0/108 [00:00<?, ?it/s][train] Epoch: 9/100 Loss: 0.17959587791816337 Acc: 0.9502364066193852
+Execution time: 543.9725512999994
+
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 108/108 [00:56<00:00,  1.93it/s]
+  0%|          | 0/423 [00:00<?, ?it/s][val] Epoch: 9/100 Loss: 0.3315592174050638 Acc: 0.9133858267716535
+Execution time: 56.04470829999991
+
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 423/423 [09:03<00:00,  1.28s/it]
+  0%|          | 0/108 [00:00<?, ?it/s][train] Epoch: 10/100 Loss: 0.051503064798306915 Acc: 0.9846335697399526
+Execution time: 543.5414437
+
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 108/108 [00:56<00:00,  1.93it/s]
+  0%|          | 0/423 [00:00<?, ?it/s][val] Epoch: 10/100 Loss: 0.20724291538390677 Acc: 0.9462714219546086
+Execution time: 56.09672870000031
+
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 423/423 [09:04<00:00,  1.29s/it]
+  0%|          | 0/108 [00:00<?, ?it/s][train] Epoch: 11/100 Loss: 0.026465023384235765 Acc: 0.9926713947990543
+Execution time: 544.0423575000004
+
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 108/108 [00:56<00:00,  1.92it/s]
+  0%|          | 0/423 [00:00<?, ?it/s][val] Epoch: 11/100 Loss: 0.19027834585480838 Acc: 0.951829550717925
+Execution time: 56.21602339999936
+
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 423/423 [09:03<00:00,  1.29s/it]
+  0%|          | 0/108 [00:00<?, ?it/s][train] Epoch: 12/100 Loss: 0.023422956458203387 Acc: 0.9933806146572104
+Execution time: 543.5584671999995
+
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 108/108 [00:56<00:00,  1.92it/s]
+  0%|          | 0/423 [00:00<?, ?it/s][val] Epoch: 12/100 Loss: 0.1999345115656508 Acc: 0.9504400185270958
+Execution time: 56.12493930000073
+
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 423/423 [09:04<00:00,  1.29s/it]
+  0%|          | 0/108 [00:00<?, ?it/s][train] Epoch: 13/100 Loss: 0.021069612682008666 Acc: 0.9940898345153664
+Execution time: 544.3315698000006
+
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 108/108 [00:57<00:00,  1.89it/s]
+  0%|          | 0/423 [00:00<?, ?it/s][val] Epoch: 13/100 Loss: 0.20208079226357162 Acc: 0.952292728114868
+Execution time: 57.26423800000066
+
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 423/423 [09:04<00:00,  1.29s/it]
+[train] Epoch: 14/100 Loss: 0.019409001338487324 Acc: 0.9950354609929077
+Execution time: 544.7466333999992
+
+  0%|          | 0/108 [00:00<?, ?it/s]Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 108/108 [00:56<00:00,  1.92it/s]
+  0%|          | 0/423 [00:00<?, ?it/s][val] Epoch: 14/100 Loss: 0.2006742943060836 Acc: 0.952292728114868
+Execution time: 56.18966069999988
+
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 423/423 [09:04<00:00,  1.29s/it]
+  0%|          | 0/108 [00:00<?, ?it/s][train] Epoch: 15/100 Loss: 0.01618936069753631 Acc: 0.9947990543735225
+Execution time: 544.5929735999998
+
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 108/108 [00:56<00:00,  1.92it/s]
+  0%|          | 0/423 [00:00<?, ?it/s][val] Epoch: 15/100 Loss: 0.19056594449338354 Acc: 0.9569245020842982
+Execution time: 56.29339120000077
+
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 423/423 [09:04<00:00,  1.29s/it]
+  0%|          | 0/108 [00:00<?, ?it/s][train] Epoch: 16/100 Loss: 0.015061548498183594 Acc: 0.9963356973995271
+Execution time: 544.2313259999992
+
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 108/108 [00:56<00:00,  1.93it/s]
+  0%|          | 0/423 [00:00<?, ?it/s][val] Epoch: 16/100 Loss: 0.19012730590485072 Acc: 0.9564613246873552
+Execution time: 56.02639060000001
+
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 423/423 [09:04<00:00,  1.29s/it]
+  0%|          | 0/108 [00:00<?, ?it/s][train] Epoch: 17/100 Loss: 0.012149062412199417 Acc: 0.9958628841607564
+Execution time: 544.6006809999999
+
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 108/108 [00:56<00:00,  1.93it/s]
+[val] Epoch: 17/100 Loss: 0.1880216644764778 Acc: 0.9559981472904122
+Execution time: 56.10390340000049
+
+  0%|          | 0/423 [00:00<?, ?it/s]Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 423/423 [09:04<00:00,  1.29s/it]
+[train] Epoch: 18/100 Loss: 0.011976975149107937 Acc: 0.9963356973995271
+Execution time: 544.4924589000002
+
+  0%|          | 0/108 [00:00<?, ?it/s]Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 108/108 [00:56<00:00,  1.93it/s]
+  0%|          | 0/423 [00:00<?, ?it/s][val] Epoch: 18/100 Loss: 0.18923280887520916 Acc: 0.9606299212598425
+Execution time: 56.03856090000045
+
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 423/423 [09:04<00:00,  1.29s/it]
+  0%|          | 0/108 [00:00<?, ?it/s][train] Epoch: 19/100 Loss: 0.013746468791373607 Acc: 0.9964539007092198
+Execution time: 544.3842483999997
+
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 108/108 [00:57<00:00,  1.87it/s]
+[val] Epoch: 19/100 Loss: 0.16755517103926015 Acc: 0.9634089856415007
+Execution time: 57.84694519999903
+
+  0%|          | 0/423 [00:00<?, ?it/s]Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 423/423 [09:04<00:00,  1.29s/it]
+  0%|          | 0/108 [00:00<?, ?it/s][train] Epoch: 20/100 Loss: 0.009613378265337806 Acc: 0.9976359338061466
+Execution time: 544.1651576000004
+
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 108/108 [00:56<00:00,  1.93it/s]
+  0%|          | 0/136 [00:00<?, ?it/s][val] Epoch: 20/100 Loss: 0.1772727347739348 Acc: 0.9601667438628995
+Execution time: 56.080239099999744
+
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 136/136 [02:19<00:00,  1.03s/it]
+  0%|          | 0/423 [00:00<?, ?it/s][test] Epoch: 20/100 Loss: 0.12066289338224633 Acc: 0.9681599407626805
+Execution time: 139.73063750000074
+
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 423/423 [09:06<00:00,  1.29s/it]
+  0%|          | 0/108 [00:00<?, ?it/s][train] Epoch: 21/100 Loss: 0.009269723555267822 Acc: 0.9977541371158392
+Execution time: 546.0491575999986
+
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 108/108 [00:59<00:00,  1.80it/s]
+  0%|          | 0/423 [00:00<?, ?it/s][val] Epoch: 21/100 Loss: 0.17493434490007753 Acc: 0.9541454377026402
+Execution time: 59.96842920000017
+
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 423/423 [09:04<00:00,  1.29s/it]
+[train] Epoch: 22/100 Loss: 0.013449622900500436 Acc: 0.9959810874704491
+Execution time: 544.9916211
+
+  0%|          | 0/108 [00:00<?, ?it/s]Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 108/108 [00:59<00:00,  1.80it/s]
+  0%|          | 0/423 [00:00<?, ?it/s][val] Epoch: 22/100 Loss: 0.1770248598537886 Acc: 0.9597035664659564
+Execution time: 59.972018899999966
+
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 423/423 [09:05<00:00,  1.29s/it]
+  0%|          | 0/108 [00:00<?, ?it/s][train] Epoch: 23/100 Loss: 0.01017005993985087 Acc: 0.9971631205673759
+Execution time: 545.0842807000008
+
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 108/108 [01:00<00:00,  1.80it/s]
+  0%|          | 0/423 [00:00<?, ?it/s][val] Epoch: 23/100 Loss: 0.1863496854684374 Acc: 0.9569245020842982
+Execution time: 60.07704420000118
+
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 423/423 [09:05<00:00,  1.29s/it]
+  0%|          | 0/108 [00:00<?, ?it/s][train] Epoch: 24/100 Loss: 0.009568569238132032 Acc: 0.9971631205673759
+Execution time: 545.1913238999987
+
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 108/108 [01:00<00:00,  1.79it/s]
+  0%|          | 0/423 [00:00<?, ?it/s][val] Epoch: 24/100 Loss: 0.1585829166085393 Acc: 0.9592403890690134
+Execution time: 60.24072380000143
+
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 423/423 [09:05<00:00,  1.29s/it]
+  0%|          | 0/108 [00:00<?, ?it/s][train] Epoch: 25/100 Loss: 0.01134771740056379 Acc: 0.9969267139479905
+Execution time: 545.4095205000012
+
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 108/108 [01:03<00:00,  1.70it/s]
+[val] Epoch: 25/100 Loss: 0.1769308190739981 Acc: 0.9606299212598425
+Execution time: 63.37205410000024
+
+  0%|          | 0/423 [00:00<?, ?it/s]Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 423/423 [09:05<00:00,  1.29s/it]
+  0%|          | 0/108 [00:00<?, ?it/s][train] Epoch: 26/100 Loss: 0.01097763834525079 Acc: 0.9971631205673759
+Execution time: 545.4226368
+
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 108/108 [01:00<00:00,  1.80it/s]
+  0%|          | 0/423 [00:00<?, ?it/s][val] Epoch: 26/100 Loss: 0.20313117653957233 Acc: 0.952292728114868
+Execution time: 60.06212020000021
+
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 423/423 [09:05<00:00,  1.29s/it]
+  0%|          | 0/108 [00:00<?, ?it/s][train] Epoch: 27/100 Loss: 0.009417434914478821 Acc: 0.9976359338061466
+Execution time: 545.5793822000014
+
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 108/108 [00:59<00:00,  1.80it/s]
+  0%|          | 0/423 [00:00<?, ?it/s][val] Epoch: 27/100 Loss: 0.16284975951003963 Acc: 0.9606299212598425
+Execution time: 59.95388240000102
+
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 423/423 [09:05<00:00,  1.29s/it]
+[train] Epoch: 28/100 Loss: 0.008824658087619022 Acc: 0.9976359338061466
+Execution time: 545.4360299
+
+  0%|          | 0/108 [00:00<?, ?it/s]Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 108/108 [00:59<00:00,  1.80it/s]
+  0%|          | 0/423 [00:00<?, ?it/s][val] Epoch: 28/100 Loss: 0.1752445933740334 Acc: 0.9597035664659564
+Execution time: 59.91545369999949
+
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 423/423 [09:05<00:00,  1.29s/it]
+  0%|          | 0/108 [00:00<?, ?it/s][train] Epoch: 29/100 Loss: 0.006543269810522501 Acc: 0.9986997635933805
+Execution time: 545.2213005999984
+
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 108/108 [00:59<00:00,  1.80it/s]
+  0%|          | 0/423 [00:00<?, ?it/s][val] Epoch: 29/100 Loss: 0.15930854960694266 Acc: 0.9592403890690134
+Execution time: 59.905168199999025
+
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 423/423 [09:05<00:00,  1.29s/it]
+  0%|          | 0/108 [00:00<?, ?it/s][train] Epoch: 30/100 Loss: 0.007954602967989003 Acc: 0.9981087470449173
+Execution time: 545.7385780000004
+
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 108/108 [00:59<00:00,  1.80it/s]
+[val] Epoch: 30/100 Loss: 0.17773397377312483 Acc: 0.9587772116720704
+Execution time: 59.876989800002775
+
+  0%|          | 0/423 [00:00<?, ?it/s]Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 423/423 [09:05<00:00,  1.29s/it]
+  0%|          | 0/108 [00:00<?, ?it/s][train] Epoch: 31/100 Loss: 0.010933612372664743 Acc: 0.9968085106382978
+Execution time: 545.6793842999978
+
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 108/108 [01:01<00:00,  1.77it/s]
+  0%|          | 0/423 [00:00<?, ?it/s][val] Epoch: 31/100 Loss: 0.16736662831482502 Acc: 0.9573876794812413
+Execution time: 61.15149759999986
+
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 423/423 [09:05<00:00,  1.29s/it]
+  0%|          | 0/108 [00:00<?, ?it/s][train] Epoch: 32/100 Loss: 0.007750969125506514 Acc: 0.9975177304964539
+Execution time: 545.4702563999999
+
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 108/108 [01:00<00:00,  1.80it/s]
+  0%|          | 0/423 [00:00<?, ?it/s][val] Epoch: 32/100 Loss: 0.18657157768878468 Acc: 0.9569245020842982
+Execution time: 60.00470380000115
+
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 423/423 [09:05<00:00,  1.29s/it]
+  0%|          | 0/108 [00:00<?, ?it/s][train] Epoch: 33/100 Loss: 0.007448941933310017 Acc: 0.9981087470449173
+Execution time: 545.8145785999986
+
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 108/108 [01:00<00:00,  1.80it/s]
+  0%|          | 0/423 [00:00<?, ?it/s][val] Epoch: 33/100 Loss: 0.1536143200609042 Acc: 0.9620194534506716
+Execution time: 60.16522400000031
+
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 423/423 [09:05<00:00,  1.29s/it]
+  0%|          | 0/108 [00:00<?, ?it/s][train] Epoch: 34/100 Loss: 0.00883481695391246 Acc: 0.9972813238770685
+Execution time: 545.8297323000006
+
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 108/108 [01:00<00:00,  1.80it/s]
+[val] Epoch: 34/100 Loss: 0.1623778290120197 Acc: 0.9606299212598425
+Execution time: 60.088634899999306
+
+  0%|          | 0/423 [00:00<?, ?it/s]Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 423/423 [09:05<00:00,  1.29s/it]
+  0%|          | 0/108 [00:00<?, ?it/s][train] Epoch: 35/100 Loss: 0.008292280018577862 Acc: 0.9979905437352246
+Execution time: 545.748507100001
+
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 108/108 [00:59<00:00,  1.80it/s]
+  0%|          | 0/423 [00:00<?, ?it/s][val] Epoch: 35/100 Loss: 0.17194966852826415 Acc: 0.9615562760537286
+Execution time: 59.937964900000225
+
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 423/423 [09:05<00:00,  1.29s/it]
+  0%|          | 0/108 [00:00<?, ?it/s][train] Epoch: 36/100 Loss: 0.007964009862734251 Acc: 0.9976359338061466
+Execution time: 545.3248429000014
+
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 108/108 [01:00<00:00,  1.80it/s]
+  0%|          | 0/423 [00:00<?, ?it/s][val] Epoch: 36/100 Loss: 0.16355130515069097 Acc: 0.9601667438628995
+Execution time: 60.06098319999728
+
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 423/423 [09:05<00:00,  1.29s/it]
+  0%|          | 0/108 [00:00<?, ?it/s][train] Epoch: 37/100 Loss: 0.006951016611437335 Acc: 0.9976359338061466
+Execution time: 545.8456449000005
+
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 108/108 [01:02<00:00,  1.74it/s]
+  0%|          | 0/423 [00:00<?, ?it/s][val] Epoch: 37/100 Loss: 0.16133573242279345 Acc: 0.9615562760537286
+Execution time: 62.059962299998006
+
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 423/423 [09:05<00:00,  1.29s/it]
+  0%|          | 0/108 [00:00<?, ?it/s][train] Epoch: 38/100 Loss: 0.009396214388179426 Acc: 0.9972813238770685
+Execution time: 545.3793401000003
+
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 108/108 [01:00<00:00,  1.80it/s]
+  0%|          | 0/423 [00:00<?, ?it/s][val] Epoch: 38/100 Loss: 0.17640369238999656 Acc: 0.9578508568781843
+Execution time: 60.01792189999833
+
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 423/423 [09:05<00:00,  1.29s/it]
+  0%|          | 0/108 [00:00<?, ?it/s][train] Epoch: 39/100 Loss: 0.01108317699429115 Acc: 0.9969267139479905
+Execution time: 545.5478113999998
+
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 108/108 [01:00<00:00,  1.80it/s]
+[val] Epoch: 39/100 Loss: 0.16944858070143085 Acc: 0.9583140342751274
+Execution time: 60.03708800000095
+
+  0%|          | 0/423 [00:00<?, ?it/s]Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 423/423 [09:05<00:00,  1.29s/it]
+  0%|          | 0/108 [00:00<?, ?it/s][train] Epoch: 40/100 Loss: 0.009673041019522882 Acc: 0.9971631205673759
+Execution time: 545.2969096999987
+
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 108/108 [01:00<00:00,  1.79it/s]
+  0%|          | 0/136 [00:00<?, ?it/s][val] Epoch: 40/100 Loss: 0.19022931534380724 Acc: 0.9564613246873552
+Execution time: 60.36289939999915
+
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 136/136 [01:13<00:00,  1.84it/s]
+  0%|          | 0/423 [00:00<?, ?it/s][test] Epoch: 40/100 Loss: 0.12905504152784553 Acc: 0.9659385412810071
+Execution time: 73.79078260000097
+
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 423/423 [09:04<00:00,  1.29s/it]
+  0%|          | 0/108 [00:00<?, ?it/s][train] Epoch: 41/100 Loss: 0.009331656518284905 Acc: 0.9977541371158392
+Execution time: 544.9818472000006
+
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 108/108 [00:59<00:00,  1.80it/s]
+  0%|          | 0/423 [00:00<?, ?it/s][val] Epoch: 41/100 Loss: 0.15877659724372212 Acc: 0.9587772116720704
+Execution time: 59.96332919999986
+
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 423/423 [09:05<00:00,  1.29s/it]
+  0%|          | 0/108 [00:00<?, ?it/s][train] Epoch: 42/100 Loss: 0.009453712051012229 Acc: 0.9971631205673759
+Execution time: 545.5888943999998
+
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 108/108 [01:00<00:00,  1.80it/s]
+  0%|          | 0/423 [00:00<?, ?it/s][val] Epoch: 42/100 Loss: 0.19234042124984504 Acc: 0.9606299212598425
+Execution time: 60.1103820999997
+
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 423/423 [09:05<00:00,  1.29s/it]
+  0%|          | 0/108 [00:00<?, ?it/s][train] Epoch: 43/100 Loss: 0.007730289554547414 Acc: 0.9982269503546098
+Execution time: 545.5105455000012
+
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 108/108 [01:01<00:00,  1.75it/s]
+  0%|          | 0/423 [00:00<?, ?it/s][val] Epoch: 43/100 Loss: 0.17566614503192407 Acc: 0.9592403890690134
+Execution time: 61.71120089999749
+
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 423/423 [09:05<00:00,  1.29s/it]
+  0%|          | 0/108 [00:00<?, ?it/s][train] Epoch: 44/100 Loss: 0.008388388679729056 Acc: 0.9977541371158392
+Execution time: 545.4246088
+
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 108/108 [00:59<00:00,  1.81it/s]
+  0%|          | 0/423 [00:00<?, ?it/s][val] Epoch: 44/100 Loss: 0.15563862601816086 Acc: 0.9624826308476147
+Execution time: 59.73562690000108
+
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 423/423 [09:05<00:00,  1.29s/it]
+  0%|          | 0/108 [00:00<?, ?it/s][train] Epoch: 45/100 Loss: 0.009184288137780737 Acc: 0.9975177304964539
+Execution time: 545.5855902999974
+
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 108/108 [01:00<00:00,  1.80it/s]
+  0%|          | 0/423 [00:00<?, ?it/s][val] Epoch: 45/100 Loss: 0.17127835127324872 Acc: 0.9592403890690134
+Execution time: 60.05601860000024
+
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 423/423 [09:05<00:00,  1.29s/it]
+  0%|          | 0/108 [00:00<?, ?it/s][train] Epoch: 46/100 Loss: 0.009554441817962347 Acc: 0.9970449172576832
+Execution time: 545.4212318999998
+
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 108/108 [01:00<00:00,  1.80it/s]
+[val] Epoch: 46/100 Loss: 0.1461067332213787 Acc: 0.9675775822139879
+Execution time: 60.11062650000167
+
+  0%|          | 0/423 [00:00<?, ?it/s]Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 423/423 [09:05<00:00,  1.29s/it]
+  0%|          | 0/108 [00:00<?, ?it/s][train] Epoch: 47/100 Loss: 0.009073279368482741 Acc: 0.9981087470449173
+Execution time: 545.4392187000012
+
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 108/108 [01:00<00:00,  1.79it/s]
+  0%|          | 0/423 [00:00<?, ?it/s][val] Epoch: 47/100 Loss: 0.15949186621939324 Acc: 0.9546086150995832
+Execution time: 60.23518250000052
+
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 423/423 [09:05<00:00,  1.29s/it]
+[train] Epoch: 48/100 Loss: 0.008748847281066474 Acc: 0.9976359338061466
+Execution time: 545.2523947000009
+
+  0%|          | 0/108 [00:00<?, ?it/s]Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 108/108 [01:00<00:00,  1.80it/s]
+  0%|          | 0/423 [00:00<?, ?it/s][val] Epoch: 48/100 Loss: 0.1680034271572574 Acc: 0.9629458082445577
+Execution time: 60.168894499998714
+
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 423/423 [09:05<00:00,  1.29s/it]
+  0%|          | 0/108 [00:00<?, ?it/s][train] Epoch: 49/100 Loss: 0.008089843139973591 Acc: 0.9978723404255319
+Execution time: 545.1785407999996
+
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 108/108 [01:01<00:00,  1.74it/s]
+[val] Epoch: 49/100 Loss: 0.15046963698845117 Acc: 0.9638721630384437
+Execution time: 61.993109499999264
+
+  0%|          | 0/423 [00:00<?, ?it/s]Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 423/423 [09:05<00:00,  1.29s/it]
+  0%|          | 0/108 [00:00<?, ?it/s][train] Epoch: 50/100 Loss: 0.007618726161898575 Acc: 0.9975177304964539
+Execution time: 545.3825622999975
+
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 108/108 [00:59<00:00,  1.81it/s]
+[val] Epoch: 50/100 Loss: 0.16365372101093725 Acc: 0.9606299212598425
+Execution time: 59.80707579999944
+
+  0%|          | 0/423 [00:00<?, ?it/s]Save model at E:\Projects\selfProject\ml-trainee\Tasks\deep-learing-basic-examples\object-detection\video-recognition\run\run_10\models\C3D-ucf101_epoch-49.pth.tar
+
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 423/423 [09:05<00:00,  1.29s/it]
+[train] Epoch: 51/100 Loss: 0.011027988995251486 Acc: 0.9971631205673759
+Execution time: 545.2387707999987
+
+  0%|          | 0/108 [00:00<?, ?it/s]Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 108/108 [00:59<00:00,  1.81it/s]
+[val] Epoch: 51/100 Loss: 0.15970902691271313 Acc: 0.9597035664659564
+Execution time: 59.582567199999176
+
+  0%|          | 0/423 [00:00<?, ?it/s]Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 423/423 [09:05<00:00,  1.29s/it]
+  0%|          | 0/108 [00:00<?, ?it/s][train] Epoch: 52/100 Loss: 0.008876077257295936 Acc: 0.9971631205673759
+Execution time: 545.4292340000029
+
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 108/108 [00:59<00:00,  1.81it/s]
+  0%|          | 0/423 [00:00<?, ?it/s][val] Epoch: 52/100 Loss: 0.19591132078064571 Acc: 0.952755905511811
+Execution time: 59.65267120000135
+
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 423/423 [09:05<00:00,  1.29s/it]
+  0%|          | 0/108 [00:00<?, ?it/s][train] Epoch: 53/100 Loss: 0.0097631298394807 Acc: 0.9968085106382978
+Execution time: 545.3080979000006
+
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 108/108 [00:59<00:00,  1.80it/s]
+  0%|          | 0/423 [00:00<?, ?it/s][val] Epoch: 53/100 Loss: 0.1597965341885392 Acc: 0.9643353404353867
+Execution time: 59.96822890000112
+
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 423/423 [09:05<00:00,  1.29s/it]
+  0%|          | 0/108 [00:00<?, ?it/s][train] Epoch: 54/100 Loss: 0.010192717503421368 Acc: 0.9972813238770685
+Execution time: 545.3478886000012
+
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 108/108 [00:59<00:00,  1.81it/s]
+[val] Epoch: 54/100 Loss: 0.17372817222621076 Acc: 0.9610930986567855
+Execution time: 59.77780170000187
+
+  0%|          | 0/423 [00:00<?, ?it/s]Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 423/423 [09:05<00:00,  1.29s/it]
+  0%|          | 0/108 [00:00<?, ?it/s][train] Epoch: 55/100 Loss: 0.00853626810673221 Acc: 0.9977541371158392
+Execution time: 545.4048008000027
+
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 108/108 [01:00<00:00,  1.79it/s]
+[val] Epoch: 55/100 Loss: 0.15915281910768012 Acc: 0.9615562760537286
+Execution time: 60.44506569999794
+
+  0%|          | 0/423 [00:00<?, ?it/s]Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 423/423 [09:04<00:00,  1.29s/it]
+  0%|          | 0/108 [00:00<?, ?it/s][train] Epoch: 56/100 Loss: 0.009407930834123765 Acc: 0.9970449172576832
+Execution time: 544.8451343000052
+
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 108/108 [00:59<00:00,  1.81it/s]
+  0%|          | 0/423 [00:00<?, ?it/s][val] Epoch: 56/100 Loss: 0.1618570340707948 Acc: 0.9587772116720704
+Execution time: 59.6795592999988
+
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 423/423 [09:05<00:00,  1.29s/it]
+  0%|          | 0/108 [00:00<?, ?it/s][train] Epoch: 57/100 Loss: 0.008547460221368526 Acc: 0.9977541371158392
+Execution time: 545.0239113999996
+
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 108/108 [00:59<00:00,  1.82it/s]
+  0%|          | 0/423 [00:00<?, ?it/s][val] Epoch: 57/100 Loss: 0.16659527381463526 Acc: 0.9597035664659564
+Execution time: 59.45374029999948
+
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 423/423 [09:05<00:00,  1.29s/it]
+  0%|          | 0/108 [00:00<?, ?it/s][train] Epoch: 58/100 Loss: 0.008606227787983976 Acc: 0.9975177304964539
+Execution time: 545.9976186999993
+
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 108/108 [01:01<00:00,  1.75it/s]
+  0%|          | 0/423 [00:00<?, ?it/s][val] Epoch: 58/100 Loss: 0.16976080203666516 Acc: 0.9573876794812413
+Execution time: 61.87790519999544
+
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 423/423 [09:09<00:00,  1.30s/it]
+[train] Epoch: 59/100 Loss: 0.009380342003693688 Acc: 0.9982269503546098
+Execution time: 549.7350657000061
+
+  0%|          | 0/108 [00:00<?, ?it/s]Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 108/108 [01:01<00:00,  1.74it/s]
+[val] Epoch: 59/100 Loss: 0.1869826251433932 Acc: 0.9564613246873552
+Execution time: 61.95177660000627
+
+  0%|          | 0/423 [00:00<?, ?it/s]Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 423/423 [09:08<00:00,  1.30s/it]
+  0%|          | 0/108 [00:00<?, ?it/s][train] Epoch: 60/100 Loss: 0.009597595934317306 Acc: 0.9976359338061466
+Execution time: 548.1882830000031
+
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 108/108 [01:01<00:00,  1.77it/s]
+[val] Epoch: 60/100 Loss: 0.17114280412184538 Acc: 0.9569245020842982
+Execution time: 61.13744890000089
+
+  0%|          | 0/136 [00:00<?, ?it/s]Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 136/136 [01:15<00:00,  1.80it/s]
+[test] Epoch: 60/100 Loss: 0.1407186573026285 Acc: 0.9640873750462792
+Execution time: 75.41319559999829
+
+  0%|          | 0/423 [00:00<?, ?it/s]Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 423/423 [09:08<00:00,  1.30s/it]
+  0%|          | 0/108 [00:00<?, ?it/s][train] Epoch: 61/100 Loss: 0.007951664671812372 Acc: 0.9976359338061466
+Execution time: 548.7144530000005
+
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 108/108 [01:03<00:00,  1.71it/s]
+  0%|          | 0/423 [00:00<?, ?it/s][val] Epoch: 61/100 Loss: 0.16201011021548942 Acc: 0.9610930986567855
+Execution time: 63.292075100005604
+
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 423/423 [09:08<00:00,  1.30s/it]
+  0%|          | 0/108 [00:00<?, ?it/s][train] Epoch: 62/100 Loss: 0.008992127736135995 Acc: 0.9979905437352246
+Execution time: 548.4167153000017
+
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 108/108 [01:00<00:00,  1.77it/s]
+  0%|          | 0/423 [00:00<?, ?it/s][val] Epoch: 62/100 Loss: 0.17429388620665287 Acc: 0.9592403890690134
+Execution time: 60.921853799998644
+
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 423/423 [09:08<00:00,  1.30s/it]
+  0%|          | 0/108 [00:00<?, ?it/s][train] Epoch: 63/100 Loss: 0.011447061410760977 Acc: 0.9968085106382978
+Execution time: 548.4783533000009
+
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 108/108 [01:00<00:00,  1.78it/s]
+  0%|          | 0/423 [00:00<?, ?it/s][val] Epoch: 63/100 Loss: 0.15282834205939724 Acc: 0.9624826308476147
+Execution time: 60.816699300004984
+
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 423/423 [09:07<00:00,  1.29s/it]
+  0%|          | 0/108 [00:00<?, ?it/s][train] Epoch: 64/100 Loss: 0.009376135534234062 Acc: 0.9968085106382978
+Execution time: 547.734257600001
+
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 108/108 [01:00<00:00,  1.79it/s]
+[val] Epoch: 64/100 Loss: 0.1550343468955308 Acc: 0.9638721630384437
+Execution time: 60.30353780000587
+
+  0%|          | 0/423 [00:00<?, ?it/s]Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 423/423 [09:05<00:00,  1.29s/it]
+  0%|          | 0/108 [00:00<?, ?it/s][train] Epoch: 65/100 Loss: 0.007193399964142342 Acc: 0.9988179669030732
+Execution time: 545.116944399997
+
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 108/108 [01:00<00:00,  1.79it/s]
+[val] Epoch: 65/100 Loss: 0.17336416037445898 Acc: 0.9597035664659564
+Execution time: 60.36260500000208
+
+  0%|          | 0/423 [00:00<?, ?it/s]Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 423/423 [09:05<00:00,  1.29s/it]
+  0%|          | 0/108 [00:00<?, ?it/s][train] Epoch: 66/100 Loss: 0.007945623690739657 Acc: 0.9982269503546098
+Execution time: 545.2536776999987
+
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 108/108 [01:00<00:00,  1.78it/s]
+  0%|          | 0/423 [00:00<?, ?it/s][val] Epoch: 66/100 Loss: 0.1672795946647562 Acc: 0.9555349698934692
+Execution time: 60.68715210000664
+
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 423/423 [09:04<00:00,  1.29s/it]
+  0%|          | 0/108 [00:00<?, ?it/s][train] Epoch: 67/100 Loss: 0.010152561052955443 Acc: 0.9964539007092198
+Execution time: 544.9221200000029
+
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 108/108 [01:02<00:00,  1.72it/s]
+  0%|          | 0/423 [00:00<?, ?it/s][val] Epoch: 67/100 Loss: 0.16875649861112904 Acc: 0.9606299212598425
+Execution time: 62.803788899997016
+
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 423/423 [09:05<00:00,  1.29s/it]
+  0%|          | 0/108 [00:00<?, ?it/s][train] Epoch: 68/100 Loss: 0.011624567317442084 Acc: 0.9964539007092198
+Execution time: 545.1630549999973
+
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 108/108 [01:00<00:00,  1.78it/s]
+  0%|          | 0/423 [00:00<?, ?it/s][val] Epoch: 68/100 Loss: 0.18338649116830025 Acc: 0.9583140342751274
+Execution time: 60.509039999997185
+
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 423/423 [09:04<00:00,  1.29s/it]
+  0%|          | 0/108 [00:00<?, ?it/s][train] Epoch: 69/100 Loss: 0.008907468916441622 Acc: 0.9975177304964539
+Execution time: 544.9995352000042
+
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 108/108 [01:00<00:00,  1.79it/s]
+[val] Epoch: 69/100 Loss: 0.16031472651957637 Acc: 0.9624826308476147
+Execution time: 60.50496900000144
+
+  0%|          | 0/423 [00:00<?, ?it/s]Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 423/423 [09:05<00:00,  1.29s/it]
+[train] Epoch: 70/100 Loss: 0.010960674663050965 Acc: 0.9965721040189125
+Execution time: 545.1993042999966
+
+  0%|          | 0/108 [00:00<?, ?it/s]Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 108/108 [01:00<00:00,  1.78it/s]
+  0%|          | 0/423 [00:00<?, ?it/s][val] Epoch: 70/100 Loss: 0.17789318126449075 Acc: 0.953682260305697
+Execution time: 60.61747650000325
+
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 423/423 [09:04<00:00,  1.29s/it]
+  0%|          | 0/108 [00:00<?, ?it/s][train] Epoch: 71/100 Loss: 0.008283698880901373 Acc: 0.9979905437352246
+Execution time: 544.3433619000061
+
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 108/108 [01:00<00:00,  1.79it/s]
+  0%|          | 0/423 [00:00<?, ?it/s][val] Epoch: 71/100 Loss: 0.16970617719206732 Acc: 0.9573876794812413
+Execution time: 60.37908329999482
+
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 423/423 [09:04<00:00,  1.29s/it]
+  0%|          | 0/108 [00:00<?, ?it/s][train] Epoch: 72/100 Loss: 0.011919448799084631 Acc: 0.9962174940898345
+Execution time: 544.2308811999974
+
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 108/108 [01:00<00:00,  1.78it/s]
+  0%|          | 0/423 [00:00<?, ?it/s][val] Epoch: 72/100 Loss: 0.1614143559534319 Acc: 0.9583140342751274
+Execution time: 60.69974280000315
+
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 423/423 [09:04<00:00,  1.29s/it]
+  0%|          | 0/108 [00:00<?, ?it/s][train] Epoch: 73/100 Loss: 0.010743979026168225 Acc: 0.9975177304964539
+Execution time: 544.025051800003
+
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 108/108 [01:02<00:00,  1.73it/s]
+  0%|          | 0/423 [00:00<?, ?it/s][val] Epoch: 73/100 Loss: 0.1709055664432701 Acc: 0.9592403890690134
+Execution time: 62.32386840000254
+
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 423/423 [09:04<00:00,  1.29s/it]
+  0%|          | 0/108 [00:00<?, ?it/s][train] Epoch: 74/100 Loss: 0.008842043948649313 Acc: 0.9981087470449173
+Execution time: 544.1369542999964
+
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 108/108 [01:00<00:00,  1.79it/s]
+  0%|          | 0/423 [00:00<?, ?it/s][val] Epoch: 74/100 Loss: 0.15779064094119216 Acc: 0.9620194534506716
+Execution time: 60.434774800000014
+
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 423/423 [09:04<00:00,  1.29s/it]
+  0%|          | 0/108 [00:00<?, ?it/s][train] Epoch: 75/100 Loss: 0.00954412006744398 Acc: 0.9969267139479905
+Execution time: 544.071798500001
+
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 108/108 [01:00<00:00,  1.78it/s]
+  0%|          | 0/423 [00:00<?, ?it/s][val] Epoch: 75/100 Loss: 0.19490534770290394 Acc: 0.9546086150995832
+Execution time: 60.60260500000004
+
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 423/423 [09:03<00:00,  1.29s/it]
+  0%|          | 0/108 [00:00<?, ?it/s][train] Epoch: 76/100 Loss: 0.0119069979720442 Acc: 0.9965721040189125
+Execution time: 543.8430933999989
+
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 108/108 [01:00<00:00,  1.78it/s]
+[val] Epoch: 76/100 Loss: 0.16035805020345908 Acc: 0.9620194534506716
+Execution time: 60.52797470000223
+
+  0%|          | 0/423 [00:00<?, ?it/s]Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 423/423 [09:04<00:00,  1.29s/it]
+  0%|          | 0/108 [00:00<?, ?it/s][train] Epoch: 77/100 Loss: 0.009525571758821577 Acc: 0.9975177304964539
+Execution time: 544.1230934999985
+
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 108/108 [01:00<00:00,  1.78it/s]
+  0%|          | 0/423 [00:00<?, ?it/s][val] Epoch: 77/100 Loss: 0.1931740575299075 Acc: 0.9541454377026402
+Execution time: 60.738212300006126
+
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 423/423 [09:03<00:00,  1.29s/it]
+  0%|          | 0/108 [00:00<?, ?it/s][train] Epoch: 78/100 Loss: 0.009602811851478781 Acc: 0.9963356973995271
+Execution time: 543.6862268000041
+
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 108/108 [01:00<00:00,  1.78it/s]
+[val] Epoch: 78/100 Loss: 0.16492234651783982 Acc: 0.9610930986567855
+Execution time: 60.58515500000067
+
+  0%|          | 0/423 [00:00<?, ?it/s]Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 423/423 [09:04<00:00,  1.29s/it]
+  0%|          | 0/108 [00:00<?, ?it/s][train] Epoch: 79/100 Loss: 0.008013423941189042 Acc: 0.9977541371158392
+Execution time: 544.1079527999973
+
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 108/108 [01:01<00:00,  1.76it/s]
+[val] Epoch: 79/100 Loss: 0.17332435301191748 Acc: 0.9610930986567855
+Execution time: 61.501631400002225
+
+  0%|          | 0/423 [00:00<?, ?it/s]Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 423/423 [09:03<00:00,  1.29s/it]
+  0%|          | 0/108 [00:00<?, ?it/s][train] Epoch: 80/100 Loss: 0.009868071643839047 Acc: 0.9972813238770685
+Execution time: 543.9530604000029
+
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 108/108 [01:00<00:00,  1.79it/s]
+  0%|          | 0/136 [00:00<?, ?it/s][val] Epoch: 80/100 Loss: 0.16134185293399456 Acc: 0.9620194534506716
+Execution time: 60.385335599996324
+
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 136/136 [01:13<00:00,  1.84it/s]
+  0%|          | 0/423 [00:00<?, ?it/s][test] Epoch: 80/100 Loss: 0.13839082372525277 Acc: 0.9640873750462792
+Execution time: 73.99191710000014
+
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 423/423 [09:03<00:00,  1.29s/it]
+  0%|          | 0/108 [00:00<?, ?it/s][train] Epoch: 81/100 Loss: 0.009950879912935038 Acc: 0.9972813238770685
+Execution time: 543.7136073000001
+
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 108/108 [01:00<00:00,  1.78it/s]
+  0%|          | 0/423 [00:00<?, ?it/s][val] Epoch: 81/100 Loss: 0.1582370459834807 Acc: 0.9629458082445577
+Execution time: 60.507091200001014
+
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 423/423 [09:04<00:00,  1.29s/it]
+  0%|          | 0/108 [00:00<?, ?it/s][train] Epoch: 82/100 Loss: 0.007823972588306333 Acc: 0.9982269503546098
+Execution time: 544.0795892000024
+
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 108/108 [01:00<00:00,  1.78it/s]
+  0%|          | 0/423 [00:00<?, ?it/s][val] Epoch: 82/100 Loss: 0.1554073679036905 Acc: 0.9610930986567855
+Execution time: 60.65295549999428
+
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 423/423 [09:03<00:00,  1.29s/it]
+  0%|          | 0/108 [00:00<?, ?it/s][train] Epoch: 83/100 Loss: 0.008778546849937147 Acc: 0.9971631205673759
+Execution time: 543.7565804999977
+
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 108/108 [01:00<00:00,  1.78it/s]
+[val] Epoch: 83/100 Loss: 0.18481058733477881 Acc: 0.9555349698934692
+Execution time: 60.51135049999721
+
+  0%|          | 0/423 [00:00<?, ?it/s]Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 423/423 [09:04<00:00,  1.29s/it]
+  0%|          | 0/108 [00:00<?, ?it/s][train] Epoch: 84/100 Loss: 0.009011761773380027 Acc: 0.9971631205673759
+Execution time: 544.0703441000005
+
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 108/108 [01:00<00:00,  1.79it/s]
+[val] Epoch: 84/100 Loss: 0.16917936618194074 Acc: 0.9597035664659564
+Execution time: 60.44794189999811
+
+  0%|          | 0/423 [00:00<?, ?it/s]Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 423/423 [09:07<00:00,  1.29s/it]
+  0%|          | 0/108 [00:00<?, ?it/s][train] Epoch: 85/100 Loss: 0.008687383586660373 Acc: 0.9973995271867612
+Execution time: 547.1938259000017
+
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 108/108 [01:03<00:00,  1.71it/s]
+  0%|          | 0/423 [00:00<?, ?it/s][val] Epoch: 85/100 Loss: 0.16478710531120122 Acc: 0.9624826308476147
+Execution time: 63.3076024999973
+
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 423/423 [09:06<00:00,  1.29s/it]
+  0%|          | 0/108 [00:00<?, ?it/s][train] Epoch: 86/100 Loss: 0.008213390423843435 Acc: 0.9970449172576832
+Execution time: 546.3334077999971
+
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 108/108 [01:08<00:00,  1.57it/s]
+  0%|          | 0/423 [00:00<?, ?it/s][val] Epoch: 86/100 Loss: 0.18487125305799937 Acc: 0.9597035664659564
+Execution time: 68.68793630000437
+
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 423/423 [09:07<00:00,  1.29s/it]
+  0%|          | 0/108 [00:00<?, ?it/s][train] Epoch: 87/100 Loss: 0.009910022338230424 Acc: 0.9969267139479905
+Execution time: 547.1329072000008
+
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 108/108 [01:03<00:00,  1.70it/s]
+  0%|          | 0/423 [00:00<?, ?it/s][val] Epoch: 87/100 Loss: 0.1482541094730993 Acc: 0.9634089856415007
+Execution time: 63.38499540000339
+
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 423/423 [09:07<00:00,  1.29s/it]
+  0%|          | 0/108 [00:00<?, ?it/s][train] Epoch: 88/100 Loss: 0.008432455974433916 Acc: 0.9979905437352246
+Execution time: 547.7190131000025
+
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 108/108 [01:04<00:00,  1.67it/s]
+  0%|          | 0/423 [00:00<?, ?it/s][val] Epoch: 88/100 Loss: 0.19204072214552967 Acc: 0.9546086150995832
+Execution time: 64.66023059999861
+
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 423/423 [09:07<00:00,  1.29s/it]
+  0%|          | 0/108 [00:00<?, ?it/s][train] Epoch: 89/100 Loss: 0.01005973263474718 Acc: 0.9971631205673759
+Execution time: 547.4801816000036
+
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 108/108 [01:03<00:00,  1.70it/s]
+[val] Epoch: 89/100 Loss: 0.18784929985764623 Acc: 0.9555349698934692
+Execution time: 63.68215280000004
+
+  0%|          | 0/423 [00:00<?, ?it/s]Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 423/423 [09:08<00:00,  1.30s/it]
+  0%|          | 0/108 [00:00<?, ?it/s][train] Epoch: 90/100 Loss: 0.008667374051852228 Acc: 0.9982269503546098
+Execution time: 548.5056304999962
+
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 108/108 [01:03<00:00,  1.71it/s]
+  0%|          | 0/423 [00:00<?, ?it/s][val] Epoch: 90/100 Loss: 0.1830764733332792 Acc: 0.9546086150995832
+Execution time: 63.136624500002654
+
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 423/423 [09:08<00:00,  1.30s/it]
+  0%|          | 0/108 [00:00<?, ?it/s][train] Epoch: 91/100 Loss: 0.009715202184800526 Acc: 0.9971631205673759
+Execution time: 548.2698170000003
+
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 108/108 [01:05<00:00,  1.66it/s]
+  0%|          | 0/423 [00:00<?, ?it/s][val] Epoch: 91/100 Loss: 0.17880607479661784 Acc: 0.9615562760537286
+Execution time: 65.04600770000252
+
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 423/423 [09:08<00:00,  1.30s/it]
+  0%|          | 0/108 [00:00<?, ?it/s][train] Epoch: 92/100 Loss: 0.009650768129886403 Acc: 0.9971631205673759
+Execution time: 548.2961116000006
+
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 108/108 [01:03<00:00,  1.71it/s]
+[val] Epoch: 92/100 Loss: 0.1487689158603466 Acc: 0.9610930986567855
+Execution time: 63.28159869999945
+
+  0%|          | 0/423 [00:00<?, ?it/s]Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 423/423 [09:07<00:00,  1.29s/it]
+  0%|          | 0/108 [00:00<?, ?it/s][train] Epoch: 93/100 Loss: 0.0066947738119783684 Acc: 0.9982269503546098
+Execution time: 547.1763486999989
+
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 108/108 [01:03<00:00,  1.70it/s]
+  0%|          | 0/423 [00:00<?, ?it/s][val] Epoch: 93/100 Loss: 0.17166493395468335 Acc: 0.9597035664659564
+Execution time: 63.61888660000113
+
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 423/423 [09:07<00:00,  1.29s/it]
+  0%|          | 0/108 [00:00<?, ?it/s][train] Epoch: 94/100 Loss: 0.010585674869040695 Acc: 0.9972813238770685
+Execution time: 547.7405505999996
+
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 108/108 [01:02<00:00,  1.73it/s]
+  0%|          | 0/423 [00:00<?, ?it/s][val] Epoch: 94/100 Loss: 0.17571123129961222 Acc: 0.9578508568781843
+Execution time: 62.43790870000521
+
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 423/423 [09:07<00:00,  1.29s/it]
+  0%|          | 0/108 [00:00<?, ?it/s][train] Epoch: 95/100 Loss: 0.008930607459963305 Acc: 0.9977541371158392
+Execution time: 547.0990988999984
+
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 108/108 [01:03<00:00,  1.70it/s]
+  0%|          | 0/423 [00:00<?, ?it/s][val] Epoch: 95/100 Loss: 0.1880102796413789 Acc: 0.9587772116720704
+Execution time: 63.34853990000556
+
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 423/423 [09:09<00:00,  1.30s/it]
+[train] Epoch: 96/100 Loss: 0.008294450073274935 Acc: 0.9976359338061466
+Execution time: 549.4134101000018
+
+  0%|          | 0/108 [00:00<?, ?it/s]Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 108/108 [01:02<00:00,  1.72it/s]
+  0%|          | 0/423 [00:00<?, ?it/s][val] Epoch: 96/100 Loss: 0.1883346827464486 Acc: 0.9587772116720704
+Execution time: 62.94689710000239
+
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 423/423 [09:08<00:00,  1.30s/it]
+  0%|          | 0/108 [00:00<?, ?it/s][train] Epoch: 97/100 Loss: 0.011216966281407585 Acc: 0.9971631205673759
+Execution time: 548.6553805000003
+
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 108/108 [01:07<00:00,  1.61it/s]
+  0%|          | 0/423 [00:00<?, ?it/s][val] Epoch: 97/100 Loss: 0.15884004934002338 Acc: 0.9573876794812413
+Execution time: 67.02322979999735
+
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 423/423 [09:08<00:00,  1.30s/it]
+  0%|          | 0/108 [00:00<?, ?it/s][train] Epoch: 98/100 Loss: 0.00884451436033474 Acc: 0.9977541371158392
+Execution time: 548.8193524000017
+
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 108/108 [01:06<00:00,  1.62it/s]
+[val] Epoch: 98/100 Loss: 0.17065711972146938 Acc: 0.9620194534506716
+Execution time: 66.82452660000126
+
+  0%|          | 0/423 [00:00<?, ?it/s]Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 423/423 [09:07<00:00,  1.29s/it]
+  0%|          | 0/108 [00:00<?, ?it/s][train] Epoch: 99/100 Loss: 0.007134016176220443 Acc: 0.9982269503546098
+Execution time: 547.0598931999994
+
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 108/108 [01:01<00:00,  1.74it/s]
+  0%|          | 0/423 [00:00<?, ?it/s][val] Epoch: 99/100 Loss: 0.1714603238208068 Acc: 0.9587772116720704
+Execution time: 61.90984990000288
+
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 423/423 [09:08<00:00,  1.30s/it]
+  0%|          | 0/108 [00:00<?, ?it/s][train] Epoch: 100/100 Loss: 0.007981991242167842 Acc: 0.9982269503546098
+Execution time: 548.1777671000018
+
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 108/108 [01:03<00:00,  1.70it/s]
+[val] Epoch: 100/100 Loss: 0.16525983276979592 Acc: 0.9559981472904122
+Execution time: 63.70438880000438
+
+  0%|          | 0/136 [00:00<?, ?it/s]Save model at E:\Projects\selfProject\ml-trainee\Tasks\deep-learing-basic-examples\object-detection\video-recognition\run\run_10\models\C3D-ucf101_epoch-99.pth.tar
+
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+Device being used: cuda:0
+100%|██████████| 136/136 [01:20<00:00,  1.69it/s]
+[test] Epoch: 100/100 Loss: 0.11726475315485647 Acc: 0.9689004072565717
+Execution time: 80.24080099999992
+
+
+Process finished with exit code 0

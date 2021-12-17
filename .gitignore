@@ -174,7 +174,6 @@ Tutorial\TF2\aladdinpersson_github\pretrained/
 Tutorial/TF2/aladdinpersson_github/pretrained/assets/
 !/Competition/Kaggle/movielens/1m/models/checkpoints/
 !/Competition/Kaggle/movielens/1m/models/export/
-.ipynb_checkpoints
 !/Tutorial/nlp/dl_nlp/NLPiA/.ipynb_checkpoints/
 !/Tutorial/nlp/dl_nlp/NLPiA/chapter02/.ipynb_checkpoints/
 !/Tutorial/rs/princewen_rs/ffm_demo/TFModel/FFM-0.index
@@ -188,7 +187,6 @@ Tutorial/TF2/aladdinpersson_github/pretrained/assets/
 !/Tutorial/rs/princewen_rs/ffm_demo/TFModel/FFM/events.out.tfevents.1614130761.DESKTOP-BD0UHOR
 !/Tutorial/rs/princewen_rs/ffm_demo/TFModel/FFM/events.out.tfevents.1614130769.DESKTOP-BD0UHOR
 !/Tutorial/rs/princewen_rs/ffm_demo/TFModel/FFM/events.out.tfevents.1614130777.DESKTOP-BD0UHOR
-!/Tutorial/rs/princewen_rs/ffm_demo/TFModel/FFM-0.index
-!/Tutorial/rs/princewen_rs/ffm_demo/TFModel/FFM-0.data-00000-of-00001
-!/Tutorial/rs/princewen_rs/ffm_demo/TFModel/FFM-0.meta
-!/Tutorial/rs/princewen_rs/ffm_demo/TFModel/checkpoint
+
+log/
+saved_dict/

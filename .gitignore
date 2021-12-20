@@ -167,6 +167,8 @@ logs/
 *.json
 *.bin
 *.p
+data/
+
 
 # model parameters
 *checkpoint/
@@ -193,3 +195,14 @@ Tutorial/TF2/aladdinpersson_github/pretrained/assets/
 
 log/
 saved_dict/
+!/Competition/Kaggle/movielens/1m/movie_matrics.p
+!/Competition/Kaggle/movielens/1m/preprocess.p
+!/Competition/Kaggle/movielens/1m/users_matrics.p
+!/Tasks/text_classification/bert_pretrain/bert_config.json
+!/Tasks/text_classification/bert_pretrain/pytorch_model.bin
+!/Tasks/text_classification/bert_pretrain/vocab.txt
+!/Competition/Kaggle/SantanderTransaction/.ipynb_checkpoints/
+!/Competition/Kaggle/SantanderTransaction/new_shiny_train.csv
+!/Competition/Kaggle/SantanderTransaction/new_shiny_test.csv
+!/Competition/Kaggle/TweetSentimentExtraction/input/
+!/Competition/Kaggle/TweetSentimentExtraction/data/

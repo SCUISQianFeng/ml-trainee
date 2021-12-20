@@ -164,6 +164,9 @@ logs/
 # dataset
 *.csv
 *.txt
+*.json
+*.bin
+*.p
 
 # model parameters
 *checkpoint/

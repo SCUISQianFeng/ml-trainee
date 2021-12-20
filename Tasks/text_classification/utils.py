@@ -43,8 +43,8 @@ def build_vocab(file_path, tokenizer, max_size, min_freq):
     return vocab_dic
 
 
-def build_dataset(config, ues_word):
-    if ues_word:
+def build_dataset(config, use_word=False):
+    if use_word:
         tokenizer = lambda x: x.split(' ')  # 以空格隔开，word-level
     else:
         tokenizer = lambda x: [y for y in x]  # char-level

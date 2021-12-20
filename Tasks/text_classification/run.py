@@ -22,9 +22,9 @@ sys.path.append('..')
 
 parser = argparse.ArgumentParser(description='Chinese Text Classification')
 # parser.add_argument('--model', type=str, required=True,
-#                     help='choose a model: TextCNN, TextRNN, FastText, TextRCNN, TextRNN_Att, DPCNN, Transformer.py')
-parser.add_argument('--model', type=str, default='TextRCNN',
-                    help='choose a model: TextCNN, TextRNN, FastText, TextRCNN, TextRNN_Att, DPCNN, Transformer.py')
+#                     help='choose a model: TextCNN, TextRNN, FastText, TextRCNN, TextRNN_Att, DPCNN, Transformer')
+parser.add_argument('--model', type=str, default='Transformer',
+                    help='choose a model: TextCNN, TextRNN, FastText, TextRCNN, TextRNN_Att, DPCNN, Transformer')
 parser.add_argument('--embedding', default='pre_trained', type=str, help='random or pre_trained')
 parser.add_argument('--word', default=False, type=bool, help='True for word, False for Char')
 args = parser.parse_args()
@@ -57,7 +57,8 @@ if __name__ == '__main__':
 
     config.n_vocab = len(vocab)
     model = x.Model(config).to(config.device)
-    if model_name != 'Transformer.py':
+    # summary(model, [128, 32, 300])
+    if model_name != 'Transformer':
         init_network(model)
     print(model.parameters)
     train(config, model, train_iter, dev_iter, test_iter)

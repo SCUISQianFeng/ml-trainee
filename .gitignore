@@ -1,0 +1,216 @@
+
+# Created by .ignore support plugin (hsz.mobi)
+### VirtualEnv template
+# Virtualenv
+# http://iamzed.com/2009/05/07/a-primer-on-virtualenv/
+.Python
+[Bb]in
+[Ii]nclude
+[Ll]ib
+[Ll]ib64
+[Ll]ocal
+[Ss]cripts
+pyvenv.cfg
+.venv
+pip-selfcheck.json
+
+### Python template
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+.pybuilder/
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+#   For a library or package, you might want to ignore these files since the code is
+#   intended to run in multiple environments; otherwise, check them in:
+# .python-version
+
+# pipenv
+#   According to pypa/pipenv#598, it is recommended to include Pipfile.lock in version control.
+#   However, in case of collaboration, if having platform-specific dependencies or dependencies
+#   having no cross-platform support, pipenv may install dependencies that don't work, or not
+#   install all needed dependencies.
+#Pipfile.lock
+
+# PEP 582; used by e.g. github.com/David-OConnor/pyflow
+__pypackages__/
+
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# pytype static type analyzer
+.pytype/
+
+# Cython debug symbols
+cython_debug/
+
+# log
+.gitignore
+*.xml
+.idea/
+.ipynb_checkpoints/
+logs/
+
+# dataset
+*.csv
+*.txt
+*.ckpt
+*.pkl
+*.json
+*.bin
+*.p
+*.jpg
+*.png
+*.npz
+data/
+
+
+# model parameters
+*checkpoint/
+*weight/
+*savemodel/
+Tutorial\rs\princewen_rs\ffm_demo\TFModel/
+Tutorial\TF2\aladdinpersson_github\pretrained/
+Tutorial/TF2/aladdinpersson_github/pretrained/assets/
+!/Competition/Kaggle/movielens/1m/models/checkpoints/
+!/Competition/Kaggle/movielens/1m/models/export/
+!/Tutorial/nlp/dl_nlp/NLPiA/.ipynb_checkpoints/
+!/Tutorial/nlp/dl_nlp/NLPiA/chapter02/.ipynb_checkpoints/
+!/Tutorial/rs/princewen_rs/ffm_demo/TFModel/FFM-0.index
+!/Tutorial/rs/princewen_rs/ffm_demo/TFModel/FFM-0.data-00000-of-00001
+!/Tutorial/rs/princewen_rs/ffm_demo/TFModel/FFM-0.meta
+!/Tutorial/rs/princewen_rs/ffm_demo/TFModel/checkpointTFModel
+!/Tutorial/TF2/pekingUniversity_tf2_bilibili/.ipynb_checkpoints/
+!/Tutorial/TF2/pekingUniversity_tf2_bilibili/class4/FASHION_FC/weight/
+!/Tutorial/TF2/pekingUniversity_tf2_bilibili/class5/weights.txt
+!/Tutorial/rs/princewen_rs/ffm_demo/TFModel/FFM/events.out.tfevents.1614130753.DESKTOP-BD0UHOR
+!/Tutorial/rs/princewen_rs/ffm_demo/TFModel/FFM/events.out.tfevents.1614130761.DESKTOP-BD0UHOR
+!/Tutorial/rs/princewen_rs/ffm_demo/TFModel/FFM/events.out.tfevents.1614130769.DESKTOP-BD0UHOR
+!/Tutorial/rs/princewen_rs/ffm_demo/TFModel/FFM/events.out.tfevents.1614130777.DESKTOP-BD0UHOR
+
+log/
+saved_dict/
+!/Competition/Kaggle/movielens/1m/movie_matrics.p
+!/Competition/Kaggle/movielens/1m/preprocess.p
+!/Competition/Kaggle/movielens/1m/users_matrics.p
+on/video-recognition/\350\256\255\347\273\203\350\277\207\347\250\213"
+Tutorial/torch/advanced/torchtext/mydata/test.tsv
+Tutorial/torch/advanced/torchtext/mydata/train.tsv
+
+
+
+!/Competition/datafoudtain/coursa/phone_recong/data/
+!/Competition/Kaggle/GooleQA/input/
+!/Competition/Kaggle/GooleQA/data/
+

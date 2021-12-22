@@ -25,15 +25,15 @@ def min_max_trans(train_frame: pd.DataFrame, test_frame: pd.DataFrame):
     scaler = scaler.fit(train_frame[feature_columns])
 
     train_scaler = scaler.transform(train_frame[feature_columns])
-    test_sacaler = scaler.transform(test_frame[feature_columns])
+    test_scaler = scaler.transform(test_frame[feature_columns])
 
     train_scaler = pd.DataFrame(train_scaler)
     train_scaler.columns = feature_columns
     train_scaler['target'] = train_frame['target']
-    test_scaler = pd.DataFrame(test_sacaler)
+    test_scaler = pd.DataFrame(test_scaler)
     test_scaler.columns = feature_columns
 
-    return train_scaler, test_sacaler
+    return train_scaler, test_scaler
 
 
 def reduce_dimension(train_frame: pd.DataFrame, test_frame: pd.DataFrame, n: [int, float]):
@@ -67,8 +67,8 @@ def get_linear_reg(train_frame: pd.DataFrame):
     regressor.fit(X=x_train, y=y_train)
     train_score = mean_squared_error(y_true=y_train, y_pred=regressor.predict(x_train))
     test_score = mean_squared_error(y_true=y_test, y_pred=regressor.predict(x_test))
-    print("linear regressor train score: ", train_score)
-    print("linear regressor test score: ", test_score)
+    print("linear regression train score: ", train_score)
+    print("linear regression test score: ", test_score)
 
 
 def get_knn(train_frame: pd.DataFrame, n: int):

@@ -121,6 +121,13 @@ class AdditiveAttention(nn.Module):
 
 class DotProductAttention(nn.Module):
     def __init__(self, dropout, **kwargs):
+        """
+        使⽤点积可以得到计算效率更⾼的评分函数，但是点积操作要求查询和键具有相同的⻓度d。假设查询和键
+        的所有元素都是独⽴的随机变量，并且都满⾜零均值和单位⽅差，那么两个向量的点积的均值为0，⽅差为d。
+        为确保⽆论向量⻓度如何，点积的⽅差在不考虑向量⻓度的情况下仍然是1，我们将点积除以sqrt(d)，
+        :param dropout:
+        :param kwargs:
+        """
         super(DotProductAttention, self).__init__(**kwargs)
         self.dropout = nn.Dropout(dropout)
 

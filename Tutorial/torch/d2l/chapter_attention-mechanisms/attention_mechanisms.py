@@ -15,6 +15,7 @@
 import torch
 from torch import nn
 from d2l import torch as d2l
+import math
 import matplotlib.pyplot as plt
 
 
@@ -91,6 +92,45 @@ def masked_softmax(X, valid_lens):
         return nn.functional.softmax(X.reshape(shape), dim=-1)
 
 
+class AdditiveAttention(nn.Module):
+    """加性注意⼒"""
+
+    def __init__(self, key_size, query_size, num_hiddens, dropout, **kwargs):
+        super(AdditiveAttention, self).__init__(**kwargs)
+        self.W_k = nn.Linear(key_size, num_hiddens, bias=False)
+        self.W_q = nn.Linear(query_size, num_hiddens, bias=False)
+        self.w_v = nn.Linear(num_hiddens, 1, bias=False)
+        self.dropout = nn.Dropout(dropout)
+
+    def forward(self, queries, keys, values, valid_lens):
+        queries, keys = self.W_q(queries), self.W_k(keys)
+        #  queries.shape: [batch_size, num, num_hidden] -> [batch_size, num, 1，num_hidden]
+        # 在维度扩展后，
+        # queries的形状： (batch_size，查询的个数， 1， num_hidden)
+        # key的形状： (batch_size， 1，“键－值”对的个数， num_hiddens)
+        # 使⽤⼴播⽅式进⾏求和
+        features = queries.unsqueeze(2) + keys.unsqueeze(1)
+        features = torch.tanh(features)  # [batch_size, num, key_num，num_hidden]
+        # self.w_v仅有⼀个输出，因此从形状中移除最后那个维度。
+        # scores的形状： (batch_size，查询的个数，“键-值”对的个数)
+        scores = self.w_v(features).squeeze(-1)  # [batch_size, num, key_num]
+        self.attention_weights = masked_softmax(scores, valid_lens)
+        # values的形状： (batch_size，“键－值”对的个数，值的维度)
+        return torch.bmm(self.dropout(self.attention_weights), values)
+
+
+class DotProductAttention(nn.Module):
+    def __init__(self, dropout, **kwargs):
+        super(DotProductAttention, self).__init__(**kwargs)
+        self.dropout = nn.Dropout(dropout)
+
+    def forward(self, queries, keys, values, valid_lens=None):
+        d = queries.shape[-1]
+        scores = torch.bmm(queries, keys.transpose(1, 2)) / math.sqrt(d)
+        self.attention_weights = masked_softmax(scores, valid_lens)
+        return torch.bmm(self.dropout(self.attention_weights), values)
+
+
 if __name__ == '__main__':
     # attention_weights = torch.eye(10).reshape((1, 1, 10, 10))
     # show_heatmaps(attention_weights, xlabel='Keys', ylabel='Queries')
@@ -147,4 +187,23 @@ if __name__ == '__main__':
     #     animator.add(epoch + 1, float(l.sum()))
     #
     # d2l.plt.show()
-    masked_softmax(torch.rand(2, 2, 4), torch.tensor([2, 3]))
+
+    # masked_softmax(torch.rand(2, 2, 4), torch.tensor([2, 3]))
+
+    queries, keys = torch.normal(0, 1, (2, 1, 20)), torch.ones((2, 10, 2))
+    # values的⼩批量，两个值矩阵是相同的
+    values = torch.arange(40, dtype=torch.float32).reshape(1, 10, 4).repeat(2, 1, 1)
+    valid_lens = torch.tensor([2, 6])
+    # attention = AdditiveAttention(key_size=2, query_size=20, num_hiddens=8, dropout=0.1)
+    # attention.eval()
+    # print(attention(queries, keys, values, valid_lens))
+    # d2l.show_heatmaps(attention.attention_weights.reshape((1, 1, 2, 10)), xlabel='Keys', ylabel='Queries')
+    # d2l.plt.show()
+
+    ### 缩放点注意力机制
+    queries = torch.normal(0, 1, (2, 1, 2))
+    attention = DotProductAttention(dropout=0.5)
+    attention.eval()
+    attention(queries, keys, values, valid_lens)
+    d2l.show_heatmaps(attention.attention_weights.reshape((1, 1, 2, 10)), xlabel='Keys', ylabel='Queries')
+    d2l.plt.show()

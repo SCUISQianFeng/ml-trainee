@@ -46,7 +46,7 @@ if __name__ == '__main__':
             for j in range(len_con):
                 matrix_con[i][j] = vector_similarity(contents[i].strip(), contents[j].strip())
 
-        f1 = open(file='./data2/result.txt', mode='r', encoding='utf8')
+        f1 = open(file='./data2/result.txt', mode='w', encoding='utf8')
         for j in range(len_con):
             # 获取最为相似的案件
             # 注意：每个案件与自己的相似度为1，因此获取的是相似度第二大的案件

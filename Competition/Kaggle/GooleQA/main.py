@@ -1,11 +1,11 @@
 #!/usr/bin/env python  
 # -*- coding:utf-8 _*-
 """ 
-@author: scuislishuai
+@author: scuisqianfeng
 @license: Apache Licence 
 @file: main.py 
 @time: 2021/11/08
-@contact: scuislishuai@gmail.com
+@contact: scuisqianfeng@gmail.com
 @site:  
 @software: PyCharm
 """

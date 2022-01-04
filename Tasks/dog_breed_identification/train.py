@@ -5,7 +5,7 @@
 @license: Apache Licence 
 @file: train.py
 @time: 2022/01/02
-@contact: scuislishuai@gmail.com
+@contact: scuisqianfeng@gmail.com
 @site:  
 @software: PyCharm 
 """

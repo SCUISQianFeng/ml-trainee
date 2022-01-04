@@ -5,7 +5,7 @@
 @license: Apache Licence 
 @file: FastRCNN.py 
 @time: 2022/01/03
-@contact: scuislishuai@gmail.com
+@contact: scuisqianfeng@gmail.com
 @site:  
 @software: PyCharm 
 """

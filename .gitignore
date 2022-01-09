@@ -173,7 +173,6 @@ logs/
 *.jpg
 *.png
 *.npz
-data/
 
 
 # model parameters
@@ -214,3 +213,6 @@ Tutorial/torch/advanced/torchtext/mydata/train.tsv
 !/Competition/Kaggle/GooleQA/input/
 !/Competition/Kaggle/GooleQA/data/
 
+Tasks/cifar10/result/
+Tutorial/TF2/d2l/chapter_computational-performance/my_mlp/assets/
+Tutorial/rs/princewen_rs/ffm_demo/TFModel/

@@ -24,7 +24,7 @@ from utils import find_element
 
 punctuation = '''，。、:；（）ＸX×xa"“”,<《》'''
 
-f = open("case.txt", "r", encoding="utf-8")
+f = open("single_case.txt", "r", encoding="utf-8")
 case = f.read().strip()
 f.close()
 

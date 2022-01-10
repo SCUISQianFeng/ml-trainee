@@ -164,7 +164,6 @@ logs/
 
 # dataset
 *.csv
-*.txt
 *.ckpt
 *.pkl
 *.json

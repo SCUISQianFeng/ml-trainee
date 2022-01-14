@@ -11,6 +11,9 @@
 """
 
 import re
+import sys
+
+sys.path.append('..')
 
 
 def remove_duplicate_elements(elements):

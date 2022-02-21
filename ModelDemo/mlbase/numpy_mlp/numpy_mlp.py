@@ -11,7 +11,6 @@
 """
 
 import numpy as np
-import sklearn
 from sklearn import datasets
 from sklearn import linear_model
 
@@ -42,7 +41,7 @@ print("LR Accuracy: ", np.sum(pred == Y) / Y.shape[0])
 # print(lr_score)
 class MLP(object):
 
-    def __init__(self, input_dim: int = 2, hidden_size: int = 2, output_dim: int = 1, epochs: int = 5000,
+    def __init__(self, input_dim: int = 2, hidden_size: int = 10, output_dim: int = 1, epochs: int = 5000,
                  lr: float = 1.2):
         self.input_dim = input_dim
         self.hidden_size = hidden_size

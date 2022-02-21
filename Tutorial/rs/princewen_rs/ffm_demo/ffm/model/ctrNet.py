@@ -7,13 +7,13 @@ import tensorflow as tf
 from imp import reload
 def build_model(hparams):
     tf.reset_default_graph()
-    if hparams.model=='fm':
+    if hparams.model_cate== 'fm':
         model=fm.Model(hparams)
-    elif hparams.model=='ffm':
+    elif hparams.model_cate== 'ffm':
         model=ffm.Model(hparams)
-    elif hparams.model=='nffm':
+    elif hparams.model_cate== 'nffm':
         model=nffm.Model(hparams)
-    elif hparams.model=='xdeepfm':
+    elif hparams.model_cate== 'xdeepfm':
         model=xdeepfm.Model(hparams)        
     config_proto = tf.ConfigProto(log_device_placement=0,allow_soft_placement=0)
     config_proto.gpu_options.allow_growth = True

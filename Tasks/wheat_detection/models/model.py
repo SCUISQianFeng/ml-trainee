@@ -36,7 +36,7 @@ class ObjectHandler(object):
     def train(self):
         path = r'E:\DataSet\DataSet\kaggle\global-wheat-detection'
         DIR = os.path.join(path, 'train')
-        model = self.build_model().model
+        model = self.build_model().model_cate
 
         train_df = get_data_frame(path=path)
 

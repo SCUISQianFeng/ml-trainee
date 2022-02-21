@@ -216,7 +216,7 @@ class mv_network(object):
                             epoch_i,
                             batch_i,
                             batch_num,
-                            loss, (self.ComputeMetrics.result()), rate))
+                            loss, (self.ComputeMetrics.result_cate()), rate))
                         # print('Step #{}\tLoss: {:0.6f} mae: {:0.6f} ({} steps/sec)'.format(
                         # self.optimizer.iterations.numpy(), loss, (avg_mae.result()), rate))
                         avg_loss.reset_states()
@@ -268,14 +268,14 @@ class mv_network(object):
             # avg_loss(self.compute_loss(labels, logits))
             # avg_mae(self.compute_metrics(labels, logits))
 
-        print('Model test set loss: {:0.6f} mae: {:0.6f}'.format(avg_loss.result(), self.ComputeMetrics.result()))
+        print('Model test set loss: {:0.6f} mae: {:0.6f}'.format(avg_loss.result_cate(), self.ComputeMetrics.result_cate()))
         # print('Model test set loss: {:0.6f} mae: {:0.6f}'.format(avg_loss.result(), avg_mae.result()))
         #         summary_ops_v2.scalar('loss', avg_loss.result(), step=step_num)
         #         summary_ops_v2.scalar('mae', self.ComputeMetrics.result(), step=step_num)
         # summary_ops_v2.scalar('mae', avg_mae.result(), step=step_num)
 
-        if avg_loss.result() < self.best_loss:
-            self.best_loss = avg_loss.result()
+        if avg_loss.result_cate() < self.best_loss:
+            self.best_loss = avg_loss.result_cate()
             print("best loss = {}".format(self.best_loss))
             self.checkpoint.save(self.checkpoint_prefix)
 
@@ -400,13 +400,13 @@ def rating_movie(mv_net, user_id_val, movie_id_val):
     titles = np.zeros([1, sentences_size])
     titles[0] = movies.values[movieid2idx[movie_id_val]][1]
 
-    inference_val = mv_net.model([np.reshape(users.values[user_id_val - 1][0], [1, 1]),
-                                  np.reshape(users.values[user_id_val - 1][1], [1, 1]),
-                                  np.reshape(users.values[user_id_val - 1][2], [1, 1]),
-                                  np.reshape(users.values[user_id_val - 1][3], [1, 1]),
-                                  np.reshape(movies.values[movieid2idx[movie_id_val]][0], [1, 1]),
-                                  categories,
-                                  titles])
+    inference_val = mv_net.model_cate([np.reshape(users.values[user_id_val - 1][0], [1, 1]),
+                                       np.reshape(users.values[user_id_val - 1][1], [1, 1]),
+                                       np.reshape(users.values[user_id_val - 1][2], [1, 1]),
+                                       np.reshape(users.values[user_id_val - 1][3], [1, 1]),
+                                       np.reshape(movies.values[movieid2idx[movie_id_val]][0], [1, 1]),
+                                       categories,
+                                       titles])
 
     return (inference_val.numpy())
 

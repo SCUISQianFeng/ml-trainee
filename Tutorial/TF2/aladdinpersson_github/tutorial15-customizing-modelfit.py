@@ -54,7 +54,7 @@ class CustomFit(keras.Model):
         self.optimizer.apply_gradients(zip(gradients, training_vars))
         self.metrics.update_state(y, y_pred)
 
-        return {"loss": loss, "accuracy": acc_metric.result()}
+        return {"loss": loss, "accuracy": acc_metric.result_cate()}
 
     def test_step(self, data):
         # Unpack the data
@@ -68,7 +68,7 @@ class CustomFit(keras.Model):
 
         # Update the metrics.
         self.metrics.update_state(y, y_pred)
-        return {"loss": loss, "accuracy": acc_metric.result()}
+        return {"loss": loss, "accuracy": acc_metric.result_cate()}
 
 
 acc_metric = keras.metrics.SparseCategoricalAccuracy(name="accuracy")
